@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #102a4e;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 100px);
+  }
+  
+  #joke-container {
+    text-align: center;
+  }
+  
+  #joke-text {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #555;
+  }
+  
+  #generate-btn {
+    background-color: #102a4e;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+/* when button is clicked it should look like it is clicked  */
+#generate-btn:hover{
+    background-color: #0d1a2e;
+  }
+  
+  footer {
+    background-color: #102a4e;
+    color: #fff;
+    text-align: center;
+    padding: 20 px;
+  }
